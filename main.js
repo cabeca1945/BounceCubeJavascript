@@ -267,4 +267,10 @@ function update() {
     block31.render();
 }
 
+function reloadPagina() {
+    window.location.reload();
+}
+
+setTimeout(reloadPagina(), 1000);
+
 setInterval(update, 1000/120);
