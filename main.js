@@ -271,6 +271,6 @@ function reloadPagina() {
     window.location.reload();
 }
 
-setTimeout(reloadPagina(), 1000);
+setTimeout(reloadPagina, 1000);
 
 setInterval(update, 1000/120);
